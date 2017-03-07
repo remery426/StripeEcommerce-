@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <div ng-controller = "userController">
+
+
+    <h1> Please enter your payment information </h1>
+    <form class="" ng-submit = 'register()' method="post">
+      <ul>
+        <li>Cardholder Name:<input type="text" ng-model = "newUser.name" value=""></li>
+        <li>Credit Card Number:<input type="text" ng-model = 'newUser.number' value=""></li>
+        <li>Expiration Date: <input type="text" ng-model='newUser.date' value=""></li>
+        <li>Address:<input type="text" ng-model = 'newUser.address' value="">
+        <li>City:<input type="text" ng-model = 'newUser.city' value=""></li>
+        <li>State: <input type="text" ng-model = 'newUser.state' value=""></li>
+        <li>Zip: <input type'text' ng-model = "newUSer.zip"></li>
+
+        <input type="submit" name="" value="Register">
+      </ul>
+    </form>
+  </body>
+</div>
+</html>
