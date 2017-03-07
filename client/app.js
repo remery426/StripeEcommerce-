@@ -13,6 +13,9 @@ app.config(function($routeProvider){
     .when('/confirmation',{
       templateUrl: 'partials/confirmation.html'
     })
+    .when('/checkout',{
+      templateUrl: 'partials/checkout.html'
+    })
     .otherwise({
         templateUrl: 'partials/Product.html'
     })
